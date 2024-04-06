@@ -10,17 +10,12 @@ import math
 
 #types: int, float (decimal), str (text), bool (true or false)
 
-# ##Casting
+##Casting
 
-# large_float = 1.7e308  # This is a very large float
-# large_int = int(large_float)  # Works in Python, but the fractional part is lost
-# print(large_float, large_int)
-
-# print(float(10))
-# print(int(9.8))
-# print(int("3"), float("4.2"))
-# print(str(5), str(3.14))
-
+print({float(10), float(5), float(6)}) #
+print(int(9.8)) #9
+print(int("3"), float("4.2"))
+print(str(5) + " says hi", str(3.14))
 # print(3 + 3)
 # print("3" + "3")
 # print(3 + "3")
@@ -36,7 +31,7 @@ import math
 
 # #Complex Data Types
 # print(type(math))        # module
-print(type(math.tan))    # builtin_function_or_method ("function" in Brython)
+# print(type(math.tan))    # builtin_function_or_method ("function" in Brython)
 
 def f():
     print("This is a user-defined function")
@@ -82,12 +77,20 @@ def f():
 # digits0can1be2used = None 
 # #0thisisbad
 
-# # # Variable 
-# a = 10 
-# b = 7 
-# print(a + b)
-# b = 5 
-# print(a + b)
+# # Variable 
+a = 5
+x = True
+l = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+# Initialize a variable named "false" with the int value 0
+false = 0
+# Initialize a variable name "hi" with the string value "Hello"
+hi = "Hello"
+# Initialize a variable name "colors" with a list that contains 3 strings that each represents a favorite color
+colors = ["red", "white", "blue"]
+
+#Initialize a variable named "integers" with a tuple of 2 different strings
+integers = ("a", "b")
 
 # print(a == b)
 
@@ -115,20 +118,23 @@ def f():
 # print(a, b)
 
 
-# # # Operator 
-# # print(1 + 1) 	# addition 
-# # print(5 - 3) 	# subtraction 
-# # print(10 * 7)	# multiplication 
-# # print(10 // 7)	# whole number division (quotient)
-# # print(10 / 7)	# exact value division 
-# # print(10 % 7)	# Modular --> Remainder 
-# # print(10 ** 3)	# Exponent 
-# # print(10 > 3)
-# # print(10 >= 3)
-# # print(10 == 3)	# False 
-# # print(10 != 3)	# True (! means NOT)
+# # Operator 
+# print(1 + 1) 	# addition 
+# print(5 - 3) 	# subtraction 
+# print(10 * 7)	# multiplication 
+# print(10 // 7)	# whole number division (quotient)
+# print(10 / 7)	# exact value division 
+# print(10 % 7)	# Modular --> Remainder 
+# print(10 ** 3)	# Exponent 10^3
 
+# print(27 % 4 // 2) # % has the same order of precedence as * and /
+# print(30 // 4)
 
+##boolean = True (1) or False (0)
+# print(10 > 3)
+# print(10 >= 3)    # greater than or equal to <=
+# print(10 == 3) 
+# print(10 != 3)	
 
 
 # ## Functions ## 
