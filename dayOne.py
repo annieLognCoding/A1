@@ -1,18 +1,5 @@
 import math
 
-#naming conventions:
-b = None #single lowercase letter
-B = None #single uppercase letter
-lowercase = None 
-lower_case_with_underscores = None
-UPPERCASE = None
-UPPER_CASE_WITH_UNDERSCORES = None
-CapitalizedWords = None #or CapWords, or CamelCase
-mixedCase = None #also usually called camelcase 
-Capitalized_Words_With_Underscores = None #ugly!
-digits0can1be2used = None 
-#0thisisbad
-
 ##Primitive data types
 def f():
     print("This is a user-defined function")
@@ -78,6 +65,28 @@ print(listA[0])
 setA = set((1, 2, 3, 4, 3, 4, 4))
 print(setA)
 
+#naming conventions:
+b = None #single lowercase letter
+B = None #single uppercase letter
+lowercase = None 
+lower_case_with_underscores = None
+UPPERCASE = None
+UPPER_CASE_WITH_UNDERSCORES = None
+CapitalizedWords = None #or CapWords, or CamelCase
+mixedCase = None #also usually called camelcase 
+Capitalized_Words_With_Underscores = None #ugly!
+digits0can1be2used = None 
+#0thisisbad
+
+# # Variable 
+a = 10 
+b = 7 
+print(a + b)
+b = 5 
+print(a + b)
+
+print(a == b)
+
 #pass by value, pass by reference
 
 def switchNo(x, y):
@@ -116,14 +125,7 @@ print(a, b)
 # print(10 != 3)	# True (! means NOT)
 
 
-# # Variable 
-# a = 10 
-# b = 7 
-# print(a + b)
-# b = 5 
-# print(a + b)
 
-# print(a == b)
 
 ## Functions ## 
 
