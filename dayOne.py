@@ -2,12 +2,13 @@ import math
 
 ##Primitive data types
 
-print("Some basic types in Python:")
-print(type(2))           # int
-print(type(2.2))         # float
-print(type("2.2"))       # str  (string)
-print(type(2 < 2.2))     # bool (boolean)
+# print("Some basic types in Python:")
+# print(type(2))           # int
+# print(type(2.2))         # float = decimal
+# print(type("2.2"))       # str  (string)
+# print(type(2 < 2.2))     # bool (boolean) = true or false
 
+#types: int, float (decimal), str (text), bool (true or false)
 
 # ##Casting
 
@@ -35,20 +36,21 @@ print(type(2 < 2.2))     # bool (boolean)
 
 # #Complex Data Types
 # print(type(math))        # module
-# print(type(math.tan))    # builtin_function_or_method ("function" in Brython)
+print(type(math.tan))    # builtin_function_or_method ("function" in Brython)
 
-# def f():
-#     print("This is a user-defined function")
-#     return 42
+def f():
+    print("This is a user-defined function")
+    return 42
+
 
 # print(type(f))           # function (user-defined function)
-# print(type(type(42)))    # type
-# print(type(Exception())) # Exception
-# print(type(range(5)))    # range
 
-# print(type([1,2,3]))     # list
-# print(type((1,2,3)))     # tuple
-# print(type({1,2}))       # set
+# print(type(type))    # type
+
+# print(type([1,2,3]))     # list mutable = changed
+# print(type((1,2,3)))     # tuple immutable = cannot be changed
+# print(type({1,2}))       # set only one element of the same value can be stored
+
 # print(type({1:42}))      # dict (dictionary or map)
 # print(type(2+3j))        # complex  (complex number) (we may not see this type)
 
