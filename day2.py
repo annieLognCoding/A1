@@ -2,12 +2,12 @@
 
 
 # 1. Vocabulary  
-x = 5
-def f(y, z):
-    result = x + y + z
-    return result
-print(f(1, 2)) # 8
-print(f(3, 4)) # 12
+# x = 5
+# def f(y, z):
+#     result = x + y + z
+#     return result
+# print(f(1, 2)) # 8
+# print(f(3, 4)) # 12
 
 # Vocabulary:
 #   global variable
@@ -24,24 +24,35 @@ print(f(3, 4)) # 12
 #2. Return statements
 # Basic example
 
-def isPositive(x):
-    return (x > 0)
+# def isPositive(x):
+#     return (x > 0)
 
-print(isPositive(5))  # True
-print(isPositive(-5)) # False
-print(isPositive(0))  # False
+# print(isPositive(5))  # True
+# print(isPositive(-5)) # False
+# print(isPositive(0))  # False
 
-# Return ends the function immediately
-def isPositive(x):
-    print("Hello!")   # runs
-    return (x > 0)
-    print("Goodbye!") # does not run ("dead code")
 
-print(isPositive(5))  # prints Hello, then True
 
+
+"""Return ends the function immediately
+This is a comment"""
+
+# def f(x):
+#     print(x + 3)
+#     y = 5 % 2
+#     x = 634234234
+#     print("hihihihihi " + str(x))
+#     return x - 3
+#     print("Goodbye!") # does not run ("dead code")
+
+# y = f(3)
+# print(y + 3)
+# print(isPositive(5))  # prints Hello, then True
+
+"""
 # No return statement returns None
 def f(x):
-    x + 42
+    return x + 42
 
 print(f(5)) # None
 
@@ -143,8 +154,22 @@ def f(x):
 print(f(5)) # 106
 print(f(6)) # 108
 print(g)    # 102
+"""
+
+def shout(x):
+    print("Hi, " + str(x) + "!")
+
+print(shout(3))
 
 
+#define a function named sum that takes in 2 int
+#and returns their sum
 
+def sum(x, y):
+    return x + y
 
+#define a function named diff that takes in 2 ints 
 
+def diff(x, y):
+    print(x)
+    return x - y

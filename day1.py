@@ -3,10 +3,10 @@ import math
 ##Primitive data types
 
 # print("Some basic types in Python:")
-# print(type(2))           # int
-# print(type(2.2))         # float = decimal
-# print(type("2.2"))       # str  (string)
-# print(type(2 < 2.2))     # bool (boolean) = true or false
+print(type(2))           # int
+print(type(2.2))         # float = decimal
+print(type("2.2"))       # str  (string)
+print(type(2 < 2.2))     # bool (boolean) = true or false
 
 #types: int, float (decimal), str (text), bool (true or false)
 
@@ -15,23 +15,27 @@ import math
 print({float(10), float(5), float(6)}) #
 print(int(9.8)) #9
 print(int("3"), float("4.2"))
-print(str(5) + " says hi", str(3.14))
-# print(3 + 3)
-# print("3" + "3")
-# print(3 + "3")
 
-# number = "3"
-# # print(3 + number)			# Type Error!
-# print(number)
-# print(type(number))
-# print(type(int(number)))		# only integer in this instance
-# number = int(number)
+print(str(5) + " says hi", str(3.14))
+print(3 + 3)
+print("3" + "3")
+print(3 + int("3"))
+print(str(3) + "3")
+
+
+number = "3" #assignment
+print("43" + number)			
+print(number)
+print(type(number)) #str
+print(type(int(number)))		# only integer in this instance
+
+number = "44"
+print(type(number))
+number = int(number)
 # print(3 + number)
 
 
 # #Complex Data Types
-# print(type(math))        # module
-# print(type(math.tan))    # builtin_function_or_method ("function" in Brython)
 
 def f():
     print("This is a user-defined function")
@@ -119,23 +123,22 @@ integers = ("a", "b")
 
 
 # # Operator 
-# print(1 + 1) 	# addition 
-# print(5 - 3) 	# subtraction 
-# print(10 * 7)	# multiplication 
-# print(10 // 7)	# whole number division (quotient)
-# print(10 / 7)	# exact value division 
-# print(10 % 7)	# Modular --> Remainder 
-# print(10 ** 3)	# Exponent 10^3
+print(1 + 1) 	# addition 
+print(5 - 3) 	# subtraction 
+print(10 * 7)	# multiplication 
+print(10 // 7)	# whole number division (quotient)
+print(10 / 7)	# exact value division 
+print(10 % 7)	# Modular --> Remainder 
+print(10 ** 3)	# Exponent 10^3
 
-# print(27 % 4 // 2) # % has the same order of precedence as * and /
-# print(30 // 4)
+print(3 + 27 % 4) # % has the same order of precedence as * and /
+print(30 // 4)
 
 ##boolean = True (1) or False (0)
-# print(10 > 3)
-# print(10 >= 3)    # greater than or equal to <=
-# print(10 == 3) 
-# print(10 != 3)	
-
+print(10 > 3)
+print(10 >= 3)    # greater than or equal to <=
+print(10 == 3) 
+print(10 != 3)	
 
 # ## Functions ## 
 
