@@ -3,18 +3,18 @@ import math
 ##Primitive data types
 
 # print("Some basic types in Python:")
-print(type(2))           # int
-print(type(2.2))         # float = decimal
-print(type("2.2"))       # str  (string)
-print(type(2 < 2.2))     # bool (boolean) = true or false
+print(type(2))           # 
+print(type(2.2))         # 
+print(type("2.2"))       # 
+print(type(2 < 2.2))     # 
 
 #types: int, float (decimal), str (text), bool (true or false)
 
 ##Casting
 
 print({float(10), float(5), float(6)}) #
-print(int(9.8)) #9
-print(int("3"), float("4.2"))
+print(int(9.8)) #
+print("3" + "4.2") 
 
 print(str(5) + " says hi", str(3.14))
 print(3 + 3)
@@ -141,6 +141,25 @@ print(10 == 3)
 print(10 != 3)	
 
 # ## Functions ## 
+
+# define a function that takes in an int and 
+# returns the the last digit
+
+# %, //
+def lastDigit(n):
+    return n % 10
+
+def firstDigit(n):
+    fd = n
+    while fd >= 10:
+        fd //= 10 
+    return fd
+
+def sumDigits(n):
+    return firstDigit(n) + lastDigit(n)
+
+
+
 
 # ### x + 1 doesn't actually increase value of x. 
 # ### You have to reassign it by x = x+ 1 
