@@ -164,19 +164,31 @@ Outer_loop Expression: (1 - 10)
        
 # What is the value of the var after the for loop completes its execution
 
-var = 10
-for i in range(5): #i = 0, 1, 2, 3, 4
-    print(var, end = ", ")
+# var = 10
+# for i in range(5): #i = 0, 1, 2, 3, 4
+#     print(var, end = ", ")
     
-    for j in range(2, 5, 1): #j = 2, 3, 4
-        if var % 2 == 1:
-            var += 1
-        else:
-            var -= 1
+#     for j in range(2, 6, 1): #j = 2, 3, 4
+#         if var % 2 == 1:
+#             var += 1
+#         else:
+#             var -= 1
     
-    var += 1
-    print()
+#     var += 1
+#     print()
 
-print(var)
+# print(var)
+
+"""Strings"""
+
+# for i in "alex, jeehoon":
+#     print(i)
 
 
+# string_1 = "Alex, Jeehoon"
+# for i in range(len(string_1)): #i = 0 - 12
+#     print(string_1[i], end=" ")
+
+string_a = "Hyungjoon"
+string_b = "Teo"
+print(string_a[2], string_b[2])
